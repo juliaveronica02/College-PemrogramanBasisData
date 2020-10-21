@@ -11,5 +11,16 @@
 * dotnet restore.
 * dotnet build.
 
+## .NET TOOLS.
+* dotnet tool install --global dotnet-ef --version 3.0.0.
+* dotnet tool install -g dotnet-aspnet-codegenerator.
+
+## add dotned package in every folder.
+* dotnet add package Microsoft.EntityFrameworkCore.Design.
+* dotnet add package Microsoft.EntityFrameworkCore.SqlServer.Design.
+* dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design.
+* dotnet add package Microsoft.EntityFrameworkCore.SqlServer.
+* dotnet add package Microsoft.EntityFrameworkCore.Tools. 
 ## RUN.
 * dotnet run.
+* cd learn1 - dotnet run launch-profile "learn1".
